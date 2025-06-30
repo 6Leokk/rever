@@ -22,8 +22,7 @@ import { serve } from "https://deno.land/std@0.224.0/http/server.ts";
 // ----------------------------------------------------------------------------
 const VALID_CLIENT_KEYS = new Set<string>([
   // Client API keys that callers must present in Authorization: Bearer <key>
-  "sk-demo-1234567890abcdef",
-  "sk-demo-fedcba0987654321",
+  "sk-demo-kangkang12345678",
 ]);
 
 type RetoolAccount = {
@@ -39,9 +38,9 @@ type RetoolAccount = {
 
 const RETOOL_ACCOUNTS: RetoolAccount[] = [
   {
-    domain_name: "your-domain.retool.com",
-    x_xsrf_token: "xxxx-xxxx-xxxx",
-    accessToken: "yyyy-yyyy-yyyy",
+    domain_name: "kangkang.retool.com",
+    x_xsrf_token: "a45820fa-40d0-47ea-8b83-0d6fe0429c52",
+    accessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ4c3JmVG9rZW4iOiJhNDU4MjBmYS00MGQwLTQ3ZWEtOGI4My0wZDZmZTA0MjljNTIiLCJ2ZXJzaW9uIjoiMS4yIiwiaWF0IjoxNzUxMjc4OTkxfQ.B36VSIR_O1SSr0d0qPqxi6oAwnKhAAhejmDPavxCTiI",
     is_valid: true,
     last_used: 0,
     error_count: 0,
